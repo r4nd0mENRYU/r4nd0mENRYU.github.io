@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>r4nd0mENRYU Portfolio</title>
+    <meta
+      name="description"
+      content="PDF, 문서, 리포트, 콘텐츠, 파일 전송, 모니터링 도구를 만드는 r4nd0mENRYU의 프로젝트 포트폴리오."
+    />
+    <meta property="og:title" content="r4nd0mENRYU Portfolio" />
+    <meta
+      property="og:description"
+      content="작게 시작해 실제 업무에 닿는 웹 서비스들을 모아둔 포트폴리오."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/portfolio-hero.png" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/portfolio-hero.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="r4nd0mENRYU home">
+        <span class="brand-mark">R</span>
+        <span>r4nd0mENRYU</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#focus">Focus</a>
+        <a href="https://github.com/r4nd0mENRYU">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent software portfolio</p>
+          <h1 id="hero-title">작게 시작해서 실제로 쓰이는 도구를 만듭니다.</h1>
+          <p class="hero-lede">
+            PDF 변환, 문서 추출, 데이터 리포트, 콘텐츠 운영, 파일 공유, 앱 점검까지.
+            업무 흐름에서 반복되는 작은 불편을 서비스로 정리해 온 프로젝트들입니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">프로젝트 보기</a>
+            <a class="button secondary" href="https://github.com/r4nd0mENRYU">GitHub 열기</a>
+          </div>
+        </div>
+        <figure class="hero-media" aria-label="Portfolio project preview">
+          <img src="assets/portfolio-hero.png" alt="" />
+        </figure>
+      </section>
+
+      <section class="stats" aria-label="Portfolio summary">
+        <div>
+          <strong>12</strong>
+          <span>project cards</span>
+        </div>
+        <div>
+          <strong>5</strong>
+          <span>product areas</span>
+        </div>
+        <div>
+          <strong>1</strong>
+          <span>portfolio page</span>
+        </div>
+      </section>
+
+      <section class="section intro" id="focus" aria-labelledby="focus-title">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio, not a spec sheet</p>
+          <h2 id="focus-title">기술 설명보다 결과물이 먼저 보이게.</h2>
+        </div>
+        <div class="focus-grid">
+          <article>
+            <span class="focus-kicker">Documents</span>
+            <h3>PDF와 문서를 다루는 제품군</h3>
+            <p>변환, 추출, 캡처, 증빙처럼 사무 업무에서 자주 반복되는 흐름을 짧게 줄입니다.</p>
+          </article>
+          <article>
+            <span class="focus-kicker">Operations</span>
+            <h3>콘텐츠와 리포트 자동화</h3>
+            <p>데이터와 콘텐츠를 업로드하면 사람이 바로 검수하고 활용할 수 있는 형태로 정리합니다.</p>
+          </article>
+          <article>
+            <span class="focus-kicker">Utilities</span>
+            <h3>작지만 매일 쓰는 웹 도구</h3>
+            <p>링크 단축, 파일 전송, 앱 점검처럼 명확한 문제 하나를 빠르게 해결하는 도구입니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-title">프로젝트 목록</h2>
+          </div>
+          <div class="filters" aria-label="Project filters">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="pdf">PDF</button>
+            <button class="filter-button" type="button" data-filter="business">Business</button>
+            <button class="filter-button" type="button" data-filter="utility">Utility</button>
+          </div>
+        </div>
+
+        <div class="project-grid" id="project-grid">
+          <article class="project-card" data-category="pdf">
+            <div class="card-top">
+              <span class="project-index">01</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>allofpdf</h3>
+            <p>PDF 합치기, 분할, 압축, 변환 같은 작업을 한곳에서 처리하는 PDF 유틸리티 허브.</p>
+            <div class="card-footer">
+              <span>PDF Toolkit</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="pdf">
+            <div class="card-top">
+              <span class="project-index">02</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>pdftopng</h3>
+            <p>PDF 페이지를 이미지로 빠르게 바꿔 공유, 업로드, 미리보기 작업을 간단하게 만드는 도구.</p>
+            <div class="card-footer">
+              <span>PDF Conversion</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="utility">
+            <div class="card-top">
+              <span class="project-index">03</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>filetunnel</h3>
+            <p>파일을 간단한 링크로 주고받고, 임시 공유 흐름을 가볍게 처리하는 파일 전송 서비스.</p>
+            <div class="card-footer">
+              <span>File Transfer</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="utility">
+            <div class="card-top">
+              <span class="project-index">04</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>v0-short-url</h3>
+            <p>긴 링크를 짧고 관리하기 쉬운 주소로 정리하는 단축 URL 서비스.</p>
+            <div class="card-footer">
+              <span>Short Link</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card accent" data-category="business">
+            <div class="card-top">
+              <span class="project-index">05</span>
+              <span class="status active">Active</span>
+            </div>
+            <h3>reportssok</h3>
+            <p>엑셀과 CSV 데이터를 업로드하면 차트와 한국어 보고서로 정리해주는 업무 리포트 서비스.</p>
+            <div class="card-footer">
+              <span>Report Automation</span>
+              <a href="https://github.com/r4nd0mENRYU/reportssok">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="business">
+            <div class="card-top">
+              <span class="project-index">06</span>
+              <span class="status planned">Concept</span>
+            </div>
+            <h3>toronon</h3>
+            <p>찬성, 반대, 중립 의견을 균형 있게 모아 이슈를 차분히 살펴보는 토론 커뮤니티.</p>
+            <div class="card-footer">
+              <span>Community</span>
+              <a href="https://github.com/r4nd0mENRYU/toron-on">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card accent" data-category="business">
+            <div class="card-top">
+              <span class="project-index">07</span>
+              <span class="status live">Live</span>
+            </div>
+            <h3>docssok</h3>
+            <p>계약서와 PDF 문서를 업로드해 핵심 항목을 구조화하고 만료 알림까지 관리하는 문서 서비스.</p>
+            <div class="card-footer">
+              <span>Document Workflow</span>
+              <a href="https://docssok.vercel.app">Live site</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="business">
+            <div class="card-top">
+              <span class="project-index">08</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>adrecover-korea</h3>
+            <p>광고 계정과 캠페인 문제를 빠르게 진단하고 복구 흐름을 정리하는 한국형 광고 회복 도구.</p>
+            <div class="card-footer">
+              <span>Ad Recovery</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="business">
+            <div class="card-top">
+              <span class="project-index">09</span>
+              <span class="status planned">Concept</span>
+            </div>
+            <h3>contentssok</h3>
+            <p>블로그, SNS, 뉴스레터 콘텐츠를 주간 단위로 준비하고 검수하는 콘텐츠 운영 서비스.</p>
+            <div class="card-footer">
+              <span>Content Ops</span>
+              <a href="https://github.com/r4nd0mENRYU/contentssok">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="pdf">
+            <div class="card-top">
+              <span class="project-index">10</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>proofcaputre</h3>
+            <p>화면, 문서, 증빙 자료를 저장하고 제출용으로 정리하는 캡처 및 증빙 관리 도구.</p>
+            <div class="card-footer">
+              <span>Proof Capture</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="utility">
+            <div class="card-top">
+              <span class="project-index">11</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>appjikime</h3>
+            <p>앱 상태와 외부 노출 정보를 점검해 이상 신호를 빠르게 확인하는 모니터링 도구.</p>
+            <div class="card-footer">
+              <span>App Watch</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="utility">
+            <div class="card-top">
+              <span class="project-index">12</span>
+              <span class="status planned">Showcase</span>
+            </div>
+            <h3>dangunscanner</h3>
+            <p>파일, 문서, 링크를 점검하고 위험 신호를 한눈에 보여주는 스캐너형 점검 도구.</p>
+            <div class="card-footer">
+              <span>Scanner</span>
+              <span class="upcoming">링크 준비중</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built for GitHub Pages. Portfolio by r4nd0mENRYU.</p>
+      <a href="#top">맨 위로</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
