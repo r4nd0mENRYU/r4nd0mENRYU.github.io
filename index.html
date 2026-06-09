@@ -27,6 +27,7 @@
         <span class="brand-path">~/portfolio</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
+        <a href="#career">career</a>
         <a href="#projects">projects</a>
         <a href="#stack">signals</a>
         <a href="https://github.com/r4nd0mENRYU">github</a>
@@ -66,12 +67,13 @@
             <li><span>[ok]</span> resolve 11 live domains</li>
             <li><span>[ok]</span> load pdf utilities</li>
             <li><span>[ok]</span> load ssokworks apps</li>
+            <li><span>[ok]</span> import anonymized career</li>
             <li><span>[..]</span> dangunscanner route pending</li>
           </ol>
           <div class="terminal-metrics">
             <div>
-              <strong>12</strong>
-              <span>cards</span>
+              <strong>8+</strong>
+              <span>security years</span>
             </div>
             <div>
               <strong>11</strong>
@@ -96,7 +98,62 @@
         </div>
         <div>
           <span class="signal-label">noise</span>
-          <strong>tech stack muted</strong>
+          <strong>pii redacted</strong>
+        </div>
+      </section>
+
+      <section class="section career-section" id="career" aria-labelledby="career-title">
+        <div class="section-heading">
+          <div>
+            <p class="prompt-line"><span>$</span> cat ./career.redacted.md</p>
+            <h2 id="career-title">security profile</h2>
+          </div>
+          <span class="redacted-label">company names hidden // personal info removed</span>
+        </div>
+
+        <div class="career-grid">
+          <article class="career-panel career-summary">
+            <div class="panel-command">grep -i "white hacker" profile.txt</div>
+            <h3>White Hacker / Security Engineer</h3>
+            <p>
+              8년 이상 실환경 보안 위협 분석과 웹·모바일·API 모의해킹을 수행했습니다.
+              공격자 관점으로 취약점을 찾고, 원인과 개선 우선순위까지 의사결정 가능한
+              형태로 정리하는 데 강점이 있습니다.
+            </p>
+          </article>
+
+          <article class="career-panel">
+            <div class="panel-command">cat experience.log</div>
+            <h3>2017.03 - 2025.03</h3>
+            <p class="role-line">Security Engineer / 회사명 비공개</p>
+            <ul>
+              <li>웹·앱·API 블랙박스 모의해킹과 공격 경로 분석</li>
+              <li>Android APK 정적·동적 분석, Native 함수 리버싱, Frida 기반 런타임 분석</li>
+              <li>인증 우회, 세션 하이재킹, IDOR, SQL Injection, XSS, 권한 상승 취약점 진단</li>
+              <li>Python, Go, Rust 기반 CLI 도구로 반복 분석 절차 자동화</li>
+            </ul>
+          </article>
+
+          <article class="career-panel">
+            <div class="panel-command">ls competencies/</div>
+            <h3>Core signals</h3>
+            <ul class="signal-list">
+              <li><span>offensive</span> 웹 모의해킹, API 진단, 모바일 앱 분석</li>
+              <li><span>automation</span> 보안 진단 자동화, CLI 도구, 플레이북화</li>
+              <li><span>ai-sec</span> AI 기반 취약점 분류, RAG, AI RED 관점 테스트</li>
+              <li><span>cert</span> OSCP 보유</li>
+            </ul>
+          </article>
+
+          <article class="career-panel">
+            <div class="panel-command">tail selected-projects.log</div>
+            <h3>Security side projects</h3>
+            <ul>
+              <li>DangunScanner: AI 기반 블랙박스 웹 취약점 스캐너</li>
+              <li>AppJikime: APK 분석, 권한 점검, 하드코딩 키 탐지 자동화</li>
+              <li>PDF, 링크, 파일 전송, 문서/리포트 자동화 웹 서비스 운영</li>
+            </ul>
+          </article>
         </div>
       </section>
 

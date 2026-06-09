@@ -2,6 +2,7 @@
 
 정적 GitHub Pages 포트폴리오입니다. 빌드 과정 없이 `index.html`을 바로 배포할 수 있습니다.
 현재 디자인은 cmd / cli / shell 콘셉트의 프로젝트 터미널 화면입니다.
+경력 섹션은 개인 경력서 PDF에서 개인정보와 회사명을 제거한 뒤 익명화된 요약만 반영합니다.
 
 ## 배포 방법
 
@@ -29,5 +30,6 @@
 ## 수정할 곳
 
 - 프로젝트 카드: `index.html`
+- 익명화 경력 섹션: `index.html`의 `career-section`
 - 화면 스타일: `styles.css`
 - 필터 동작: `script.js`
